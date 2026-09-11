@@ -1,0 +1,14 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "4.GitHub.pdf pages 73-79 practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.spec.js",
+    "start": "node ./bin/www"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^12.0.0"
+  }
+}
