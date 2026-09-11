@@ -22,6 +22,12 @@ npm test
 ```
 
 Windows PowerShell에서 직접 실행할 때는 `./node_modules/.bin/mocha.cmd test.spec.js`를 사용합니다.
+강의의 test 스크립트는 Unix 경로를 사용하므로 Windows에서는 Git Bash를 열고 다음과 같이 실행합니다.
+
+```sh
+npm --script-shell=bash test
+```
+
 테스트 2개가 로그를 출력하고 `2 passing`으로 종료됩니다. 강의 예제에는 assertion이 없습니다.
 
 `.github/workflows/node.js.yml`은 Node 20.x, checkout v4, setup-node v4를 사용합니다.
